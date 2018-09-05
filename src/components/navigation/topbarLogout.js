@@ -11,6 +11,9 @@ const topbarLogout = (
     <Link to="/dashboard">
       <FlatButton label="dashboard" style={{color: '#fff'}} />
     </Link>
+    <Link to="/lorem">
+      <FlatButton label="Lorem" style={{color: '#fff'}} />
+    </Link>
     <span>
     <FlatButton
       label="Logout"

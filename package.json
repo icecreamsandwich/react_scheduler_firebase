@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://github.com/Tim1023/react-scheduler-firebase",
   "dependencies": {
+    "@material-ui/core": "^3.0.2",
+    "@material-ui/icons": "^3.0.1",
     "firebase": "^4.6.0",
     "gh-pages": "^1.1.0",
     "history": "^4.7.2",

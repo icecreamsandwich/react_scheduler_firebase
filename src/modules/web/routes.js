@@ -22,6 +22,15 @@ const routes = [
       loading: LoadingComponent,
     }),
   },
+  {
+    path: '/lorem',
+    exact: true,
+    auth: true,
+    component: Loadable({
+      loader: () => import('./pages/lorem'),
+      loading: LoadingComponent,
+    }),
+  },
 
 ]
 
